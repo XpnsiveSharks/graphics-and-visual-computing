@@ -17,12 +17,16 @@ canvas {
 
 
 #ui {
+    position: fixed;
+    inset: 0;
+    color: white;
+}
+
+#controls {
     position: absolute;
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    color: white;
-    
 }
 
 #winMessage {
